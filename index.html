@@ -10,6 +10,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="shortcut icon" href="images/logo/Logo.png" type="image/x-icon" />
     <title>FoodDelivery</title>
 
     <link rel="stylesheet" href="style.css" />
@@ -36,336 +37,402 @@
           >Sign In</a
         >
       </nav>
+    </header>
 
-      <main>
-        <!-- Hero Section -->
-        <section
-          class="bg-[url('./images/hero/Preset.png')] h-[400px] md:h-[504px] flex items-center justify-center bg-center"
-        >
-          <div class="px-3 md:px-5 lg:px-0">
-            <h1
-              class="text-white text-2xl md:text-[56px] text-center leading-normal"
-            >
-              Your favorite food, delivered to you
-            </h1>
-            <div class="flex justify-center mt-10">
-              <div
-                class="bg-white flex items-center pl-2 md:pl-10 py-1 md:py-3 gap-1 md:gap-3 rounded-l-[30px]"
-              >
-                <img
-                  src="/images/hero/Location.png"
-                  alt=""
-                  class="w-3 md:w-auto"
-                /><span
-                  class="hidden md:inline-block whitespace-nowrap text-xs md:text-lg font-semibold border-r-2 pr-2"
-                  >New Work</span
-                >
-              </div>
-              <div>
-                <input
-                  type="text"
-                  placeholder=""
-                  class="focus:outline-none px-2 py-1 md:py-4 md:w-96"
-                />
-              </div>
-              <div
-                class="bg-accentColor px-2 md:px-10 py-1 md:py-3 rounded-r-[30px] flex items-center text-white font-semibold text-xs md:text-lg"
-              >
-                <button>Search</button>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Promotion Section -->
-        <section
-          class="max-w-5xl mx-auto py-20 px-3 md:px-5 xl:px-0 md:mt-10 lg:mt-20 md:mb-5"
-        >
-          <div class="md:flex">
-            <div class="flex-1">
-              <img src="images/promotion/promotion.png" alt="" />
-            </div>
-            <div class="flex-1 md:pl-10 lg:px-20 text-center md:text-left">
-              <h1
-                class="text-3xl lg:text-5xl text-primaryTextColor md:tracking-wide mt-5 md:mt-0"
-              >
-                Take a taste, come join us. Life is so endlessly delicious
-              </h1>
-              <p
-                class="text-base text-primaryTextColor tracking-wide my-5 lg:my-10"
-              >
-                In the artist's own experience, of course, art is fundamentally
-                indefinable, unsayable; there is something sacred about its
-                demands upon the soul, something inherently mysterious in the
-                forms it takes
-              </p>
-              <button
-                class="w-60 h-12 lg:w-64 lg:h-14 bg-accentColor rounded-full text-white font-semibold md:text-md lg:text-xl tracking-wide"
-              >
-                Download Our App
-              </button>
-            </div>
-          </div>
-        </section>
-
-        <!-- Popular Section -->
-        <section
-          class="max-w-6xl mx-auto py-20 px-3 md:px-5 xl:px-0 md:mt-10 md:mb-5 lg:mb-10"
-        >
-          <div
-            class="flex justify-between items-center text-primaryTextColor px-2 md:px-0"
-          >
-            <h3 class="text-sm font-semibold md:font-normal md:text-[32px]">
-              Popular on New York area
-            </h3>
-            <a
-              href="#"
-              class="flex items-center text-sm md:text-2xl gap-1 md:gap-2"
-              >View All
-              <img
-                src="images/popular/arrow-right.png"
-                alt="arrow-right-icon"
-                class="h-3 md:h-6"
-            /></a>
-          </div>
-
-          <div class="mt-5 grid md:grid-rows-12 grid-cols-12 gap-5">
-            <!-- First Column -->
-            <div
-              class="col-span-12 md:col-span-6 xl:col-span-4 md:row-span-8 xl:row-span-12"
-            >
-              <img src="images/popular/popular1.png" alt="" />
-              <h5 class="text-2xl mt-3 pl-2">Restaurant Name</h5>
-              <div class="flex gap-10 mb-3 pl-2">
-                <p class="text-lg">
-                  <img
-                    src="images/popular/IconDelivery.png"
-                    class="inline-block"
-                    alt="IconDelivery"
-                  />
-                  $ 9.99 Delivery Fee
-                </p>
-                <p>
-                  <img
-                    src="images/popular/IconTime.png"
-                    class="inline-block"
-                    alt="IconTime"
-                  />10 - 15 mins
-                </p>
-              </div>
-            </div>
-
-            <!-- Second Column -->
-            <div
-              class="col-span-12 md:col-span-6 xl:col-span-4 md:row-span-4 xl:row-span-6"
-            >
-              <img src="images/popular/popular2.png" alt="" />
-              <h5 class="text-2xl mt-3">Restaurant Name</h5>
-              <div class="flex gap-10 mb-3">
-                <p class="text-lg">
-                  <img
-                    src="images/popular/IconDelivery.png"
-                    class="inline-block"
-                    alt="IconDelivery"
-                  />
-                  $ 9.99 Delivery Fee
-                </p>
-                <p>
-                  <img
-                    src="images/popular/IconTime.png"
-                    class="inline-block"
-                    alt="IconTime"
-                  />10 - 15 mins
-                </p>
-              </div>
-            </div>
-
-            <!-- Third Column -->
-            <div
-              class="col-span-12 md:col-span-6 xl:col-span-4 md:row-span-4 xl:row-span-6"
-            >
-              <img src="images/popular/popular3.png" alt="" />
-              <h5 class="text-2xl mt-3">Restaurant Name</h5>
-              <div class="flex gap-10 mb-3">
-                <p class="text-lg">
-                  <img
-                    src="images/popular/IconDelivery.png"
-                    class="inline-block"
-                    alt="IconDelivery"
-                  />
-                  $ 9.99 Delivery Fee
-                </p>
-                <p>
-                  <img
-                    src="images/popular/IconTime.png"
-                    class="inline-block"
-                    alt="IconTime"
-                  />10 - 15 mins
-                </p>
-              </div>
-            </div>
-
-            <!-- Fourth Column -->
-            <div
-              class="col-span-12 md:col-span-6 xl:col-span-4 md:row-span-4 xl:row-span-6"
-            >
-              <img src="images/popular/popular4.png" alt="" />
-              <h5 class="text-2xl mt-3">Restaurant Name</h5>
-              <div class="flex gap-10 mb-3">
-                <p class="text-lg">
-                  <img
-                    src="images/popular/IconDelivery.png"
-                    class="inline-block"
-                    alt="IconDelivery"
-                  />
-                  $ 9.99 Delivery Fee
-                </p>
-                <p>
-                  <img
-                    src="images/popular/IconTime.png"
-                    class="inline-block"
-                    alt="IconTime"
-                  />10 - 15 mins
-                </p>
-              </div>
-            </div>
-
-            <!-- Fifth Column -->
-            <div
-              class="col-span-12 md:col-span-6 xl:col-span-4 md:row-span-4 xl:row-span-6"
-            >
-              <img src="images/popular/popular5.png" alt="" />
-              <h5 class="text-2xl mt-3">Restaurant Name</h5>
-              <div class="flex gap-10 mb-3">
-                <p class="text-lg">
-                  <img
-                    src="images/popular/IconDelivery.png"
-                    class="inline-block"
-                    alt="IconDelivery"
-                  />
-                  $ 9.99 Delivery Fee
-                </p>
-                <p>
-                  <img
-                    src="images/popular/IconTime.png"
-                    class="inline-block"
-                    alt="IconTime"
-                  />10 - 15 mins
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- How Its Work Section -->
-        <section class="max-w-5xl mx-auto py-10">
-          <h1 class="text-center text-5xl text-primaryTextColor">
-            How it works
-          </h1>
-          <div class="flex flex-wrap justify-center gap-10 mt-20">
-            <!-- Order via App -->
-            <div
-              class="max-w-72 flex flex-col justify-center items-center px-5 py-10 rounded-2xl shadow-2xl"
-            >
-              <div
-                class="bg-[url('/images/how-it-works/Ornament.png')] w-full bg-no-repeat bg-bottom py-5"
-              >
-                <img
-                  src="images/how-it-works/mobile.png"
-                  alt="mobileIcon"
-                  class="mx-auto"
-                />
-              </div>
-              <h3 class="text-lg text-accentColor font-semibold my-5">
-                Order via App
-              </h3>
-              <p
-                class="text-primaryTextColor text-sm text-center leading-6 tracking-wide"
-              >
-                In the artist's own experience, of course, art is fundamentally
-                indefinable, unsayable; there is something sacred about its
-                demands
-              </p>
-            </div>
-
-            <!-- Choose Your Food section -->
-            <div
-              class="max-w-72 flex flex-col justify-center items-center px-5 py-10 rounded-2xl shadow-2xl"
-            >
-              <div
-                class="bg-[url('/images/how-it-works/Ornament.png')] w-full bg-no-repeat bg-bottom py-5"
-              >
-                <img
-                  src="images/how-it-works/fork.png"
-                  alt="mobileIcon"
-                  class="mx-auto"
-                />
-              </div>
-              <h3 class="text-lg text-accentColor font-semibold my-5">
-                Choose your food
-              </h3>
-              <p
-                class="text-primaryTextColor text-sm text-center leading-6 tracking-wide"
-              >
-                In the artist's own experience, of course, art is fundamentally
-                indefinable, unsayable; there is something sacred about its
-                demands
-              </p>
-            </div>
-
-            <!-- Enjoy Your Food section -->
-            <div
-              class="max-w-72 flex flex-col justify-center items-center px-5 py-10 rounded-2xl shadow-2xl"
-            >
-              <div
-                class="bg-[url('/images/how-it-works/Ornament.png')] w-full bg-no-repeat bg-bottom py-5"
-              >
-                <img
-                  src="images/how-it-works/fork.png"
-                  alt="mobileIcon"
-                  class="mx-auto"
-                />
-              </div>
-              <h3 class="text-lg text-accentColor font-semibold my-5">
-                Enjoy!
-              </h3>
-              <p
-                class="text-primaryTextColor text-sm text-center leading-6 tracking-wide"
-              >
-                In the artist's own experience, of course, art is fundamentally
-                indefinable, unsayable; there is something sacred about its
-                demands
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- CTA Section -->
-      <section class="max-w-6xl mx-auto px-5 md:px-10 mt-32 mb-20">
-        <div
-        class="bg-[url('./images/CTA/Background.png')] px-5 md:px-10 h-[360px] bg-no-repeat bg-cover bg-center flex items-center rounded-3xl bg-center "
+    <main>
+      <!-- Hero Section -->
+      <section
+        class="bg-[url('./images/hero/Preset.png')] h-[400px] md:h-[504px] flex items-center justify-center bg-center"
       >
-        <div class="">
-          <h1 class="text-white text-2xl md:text-[48px] leading-normal">
-            Food Delivery helps you <br />
-            bring food to your front door
+        <div class="px-3 md:px-5 lg:px-0">
+          <h1
+            class="text-white text-2xl md:text-[56px] text-center leading-normal"
+          >
+            Your favorite food, delivered to you
           </h1>
-          <div class="md:flex gap-2 mt-10">
+          <div class="flex justify-center mt-10">
+            <div
+              class="bg-white flex items-center pl-2 md:pl-10 py-1 md:py-3 gap-1 md:gap-3 rounded-l-[30px]"
+            >
+              <img
+                src="/images/hero/Location.png"
+                alt=""
+                class="w-3 md:w-auto"
+              /><span
+                class="hidden md:inline-block whitespace-nowrap text-xs md:text-lg font-semibold border-r-2 pr-2"
+                >New Work</span
+              >
+            </div>
+            <div>
+              <input
+                type="text"
+                placeholder=""
+                class="focus:outline-none px-2 py-1 md:py-4 md:w-96"
+              />
+            </div>
+            <div
+              class="bg-accentColor px-2 md:px-10 py-1 md:py-3 rounded-r-[30px] flex items-center text-white font-semibold text-xs md:text-lg"
+            >
+              <button>Search</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Promotion Section -->
+      <section
+        class="max-w-5xl mx-auto py-20 px-3 md:px-5 xl:px-0 md:mt-10 lg:mt-20 md:mb-5"
+      >
+        <div class="md:flex">
+          <div class="flex-1">
+            <img src="images/promotion/promotion.png" alt="" />
+          </div>
+          <div class="flex-1 md:pl-10 lg:px-20 text-center md:text-left">
+            <h1
+              class="text-3xl lg:text-5xl text-primaryTextColor md:tracking-wide mt-5 md:mt-0"
+            >
+              Take a taste, come join us. Life is so endlessly delicious
+            </h1>
+            <p
+              class="text-base text-primaryTextColor tracking-wide my-5 lg:my-10"
+            >
+              In the artist's own experience, of course, art is fundamentally
+              indefinable, unsayable; there is something sacred about its
+              demands upon the soul, something inherently mysterious in the
+              forms it takes
+            </p>
             <button
-              class="w-60 h-12 lg:w-64 lg:h-14 bg-[#283646] rounded-full text-white font-semibold md:text-md lg:text-xl tracking-wide"
+              class="w-60 h-12 lg:w-64 lg:h-14 bg-accentColor rounded-full text-white font-semibold md:text-md lg:text-xl tracking-wide"
             >
               Download Our App
             </button>
-            <button
-              class="w-60 h-12 lg:w-64 lg:h-14 bg-transparent rounded-full text-white font-semibold md:text-md lg:text-xl tracking-wide"
+          </div>
+        </div>
+      </section>
+
+      <!-- Popular Section -->
+      <section
+        class="max-w-6xl mx-auto py-20 px-3 md:px-5 xl:px-0 md:mt-10 md:mb-5 lg:mb-10"
+      >
+        <div
+          class="flex justify-between items-center text-primaryTextColor px-2 md:px-0"
+        >
+          <h3 class="text-sm font-semibold md:font-normal md:text-[32px]">
+            Popular on New York area
+          </h3>
+          <a
+            href="#"
+            class="flex items-center text-sm md:text-2xl gap-1 md:gap-2"
+            >View All
+            <img
+              src="images/popular/arrow-right.png"
+              alt="arrow-right-icon"
+              class="h-3 md:h-6"
+          /></a>
+        </div>
+
+        <div class="mt-5 grid md:grid-rows-12 grid-cols-12 gap-5">
+          <!-- First Column -->
+          <div
+            class="col-span-12 md:col-span-6 xl:col-span-4 md:row-span-8 xl:row-span-12"
+          >
+            <img src="images/popular/popular1.png" alt="" />
+            <h5 class="text-2xl mt-3 pl-2">Restaurant Name</h5>
+            <div class="flex gap-10 mb-3 pl-2">
+              <p class="text-lg">
+                <img
+                  src="images/popular/IconDelivery.png"
+                  class="inline-block"
+                  alt="IconDelivery"
+                />
+                $ 9.99 Delivery Fee
+              </p>
+              <p>
+                <img
+                  src="images/popular/IconTime.png"
+                  class="inline-block"
+                  alt="IconTime"
+                />10 - 15 mins
+              </p>
+            </div>
+          </div>
+
+          <!-- Second Column -->
+          <div
+            class="col-span-12 md:col-span-6 xl:col-span-4 md:row-span-4 xl:row-span-6"
+          >
+            <img src="images/popular/popular2.png" alt="" />
+            <h5 class="text-2xl mt-3">Restaurant Name</h5>
+            <div class="flex gap-10 mb-3">
+              <p class="text-lg">
+                <img
+                  src="images/popular/IconDelivery.png"
+                  class="inline-block"
+                  alt="IconDelivery"
+                />
+                $ 9.99 Delivery Fee
+              </p>
+              <p>
+                <img
+                  src="images/popular/IconTime.png"
+                  class="inline-block"
+                  alt="IconTime"
+                />10 - 15 mins
+              </p>
+            </div>
+          </div>
+
+          <!-- Third Column -->
+          <div
+            class="col-span-12 md:col-span-6 xl:col-span-4 md:row-span-4 xl:row-span-6"
+          >
+            <img src="images/popular/popular3.png" alt="" />
+            <h5 class="text-2xl mt-3">Restaurant Name</h5>
+            <div class="flex gap-10 mb-3">
+              <p class="text-lg">
+                <img
+                  src="images/popular/IconDelivery.png"
+                  class="inline-block"
+                  alt="IconDelivery"
+                />
+                $ 9.99 Delivery Fee
+              </p>
+              <p>
+                <img
+                  src="images/popular/IconTime.png"
+                  class="inline-block"
+                  alt="IconTime"
+                />10 - 15 mins
+              </p>
+            </div>
+          </div>
+
+          <!-- Fourth Column -->
+          <div
+            class="col-span-12 md:col-span-6 xl:col-span-4 md:row-span-4 xl:row-span-6"
+          >
+            <img src="images/popular/popular4.png" alt="" />
+            <h5 class="text-2xl mt-3">Restaurant Name</h5>
+            <div class="flex gap-10 mb-3">
+              <p class="text-lg">
+                <img
+                  src="images/popular/IconDelivery.png"
+                  class="inline-block"
+                  alt="IconDelivery"
+                />
+                $ 9.99 Delivery Fee
+              </p>
+              <p>
+                <img
+                  src="images/popular/IconTime.png"
+                  class="inline-block"
+                  alt="IconTime"
+                />10 - 15 mins
+              </p>
+            </div>
+          </div>
+
+          <!-- Fifth Column -->
+          <div
+            class="col-span-12 md:col-span-6 xl:col-span-4 md:row-span-4 xl:row-span-6"
+          >
+            <img src="images/popular/popular5.png" alt="" />
+            <h5 class="text-2xl mt-3">Restaurant Name</h5>
+            <div class="flex gap-10 mb-3">
+              <p class="text-lg">
+                <img
+                  src="images/popular/IconDelivery.png"
+                  class="inline-block"
+                  alt="IconDelivery"
+                />
+                $ 9.99 Delivery Fee
+              </p>
+              <p>
+                <img
+                  src="images/popular/IconTime.png"
+                  class="inline-block"
+                  alt="IconTime"
+                />10 - 15 mins
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How Its Work Section -->
+      <section class="max-w-5xl mx-auto py-10">
+        <h1 class="text-center text-5xl text-primaryTextColor">How it works</h1>
+        <div class="flex flex-wrap justify-center gap-10 mt-20">
+          <!-- Order via App -->
+          <div
+            class="max-w-72 flex flex-col justify-center items-center px-5 py-10 rounded-2xl shadow-2xl"
+          >
+            <div
+              class="bg-[url('/images/how-it-works/Ornament.png')] w-full bg-no-repeat bg-bottom py-5"
             >
-              Browse Food
-            </button>
+              <img
+                src="images/how-it-works/mobile.png"
+                alt="mobileIcon"
+                class="mx-auto"
+              />
+            </div>
+            <h3 class="text-lg text-accentColor font-semibold my-5">
+              Order via App
+            </h3>
+            <p
+              class="text-primaryTextColor text-sm text-center leading-6 tracking-wide"
+            >
+              In the artist's own experience, of course, art is fundamentally
+              indefinable, unsayable; there is something sacred about its
+              demands
+            </p>
+          </div>
+
+          <!-- Choose Your Food section -->
+          <div
+            class="max-w-72 flex flex-col justify-center items-center px-5 py-10 rounded-2xl shadow-2xl"
+          >
+            <div
+              class="bg-[url('/images/how-it-works/Ornament.png')] w-full bg-no-repeat bg-bottom py-5"
+            >
+              <img
+                src="images/how-it-works/fork.png"
+                alt="mobileIcon"
+                class="mx-auto"
+              />
+            </div>
+            <h3 class="text-lg text-accentColor font-semibold my-5">
+              Choose your food
+            </h3>
+            <p
+              class="text-primaryTextColor text-sm text-center leading-6 tracking-wide"
+            >
+              In the artist's own experience, of course, art is fundamentally
+              indefinable, unsayable; there is something sacred about its
+              demands
+            </p>
+          </div>
+
+          <!-- Enjoy Your Food section -->
+          <div
+            class="max-w-72 flex flex-col justify-center items-center px-5 py-10 rounded-2xl shadow-2xl"
+          >
+            <div
+              class="bg-[url('/images/how-it-works/Ornament.png')] w-full bg-no-repeat bg-bottom py-5"
+            >
+              <img
+                src="images/how-it-works/Chicken.png"
+                alt="mobileIcon"
+                class="mx-auto"
+              />
+            </div>
+            <h3 class="text-lg text-accentColor font-semibold my-5">Enjoy!</h3>
+            <p
+              class="text-primaryTextColor text-sm text-center leading-6 tracking-wide"
+            >
+              In the artist's own experience, of course, art is fundamentally
+              indefinable, unsayable; there is something sacred about its
+              demands
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="max-w-6xl mx-auto px-5 md:px-10 mt-32 mb-20">
+        <div
+          class="bg-[url('./images/CTA/Background.png')] px-5 md:px-10 h-[360px] bg-no-repeat bg-cover bg-center flex items-center rounded-3xl bg-center"
+        >
+          <div class="">
+            <h1 class="text-white text-2xl md:text-[48px] leading-normal">
+              Food Delivery helps you <br />
+              bring food to your front door
+            </h1>
+            <div class="md:flex gap-2 mt-10">
+              <button
+                class="w-60 h-12 lg:w-64 lg:h-14 bg-[#283646] rounded-full text-white font-semibold md:text-md lg:text-xl tracking-wide"
+              >
+                Download Our App
+              </button>
+              <button
+                class="w-60 h-12 lg:w-64 lg:h-14 bg-transparent rounded-full text-white font-semibold md:text-md lg:text-xl tracking-wide"
+              >
+                Browse Food
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="bg-[url('images/footer/Background.png')]  bg-cover bg-bottom min-h-[350px] lg:h-[350px] px-5 md:px-10 lg:px-0"
+    >
+      <div class="flex items-center h-full">
+        <div class="max-w-6xl w-full m-auto flex flex-wrap gap-16 align-middle">
+          <!-- First Column -->
+          <div>
+            <div>
+              <img src="images/logo/Logo.png" alt="" />
+            </div>
+            <div class="text-primaryTextColor mt-14">
+              <p>123 Lorem Ipsum Street</p>
+              <p>Tangerang, Banten</p>
+              <p class="mt-5">+10 - 234 - 5678</p>
+            </div>
+          </div>
+  
+          <!-- second Column -->
+          <div>
+            <h3 class="text-lg font-semibold">
+              Partners
+            </h3>
+            <div class="text-primaryTextColor mt-14 space-y-2">
+              <p>All Restaurant</p>
+              <p>Best Sellers</p>
+              <p >Top rated</p>
+              <p>NewComers</p>
+            </div>
+          </div>
+  
+          <!-- Third Column -->
+          <div>
+            <h3 class="text-lg font-semibold">
+              About Us
+            </h3>
+            <div class="text-primaryTextColor mt-14 space-y-2">
+              <p>All Restaurant</p>
+              <p>Best Sellers</p>
+              <p >Top rated</p>
+              <p>NewComers</p>
+            </div>
+          </div>
+  
+          <!-- Third Row -->
+          <div>
+            <h3 class="text-lg font-semibold">
+              Privacy Policy
+            </h3>
+            <div class="text-primaryTextColor mt-14 space-y-2">
+              <p>FAQ</p>
+              <p>Join Our Program</p>
+              <p>Be our Partner</p>
+              <p>Terms And Condition</p>
+            </div>
+          </div>
+  
+          <!-- Fourth Row -->
+          <div>
+            <h3 class="text-lg font-semibold">
+             Contact Us
+            </h3>
+            <div class="text-primaryTextColor mt-14 space-y-2">
+              <p>Our Privacy Policy</p>
+              <p>Make An Investment</p>
+            </div>
           </div>
         </div>
       </div>
-      </section>
-      </main>
-    </header>
+    </footer>
   </body>
 </html>
