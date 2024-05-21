@@ -10,7 +10,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="shortcut icon" href="images/logo/Logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <title>FoodDelivery</title>
 
     <link rel="stylesheet" href="style.css" />
@@ -117,8 +117,8 @@
         <div
           class="flex justify-between items-center text-primaryTextColor px-2 md:px-0"
         >
-          <h3 class="text-sm font-semibold md:font-normal md:text-[32px]">
-            Popular on New York area
+          <h3 class="font-semibold md:font-normal text-xl md:text-[32px]">
+            Popular on New <br class="md:hidden" />York area
           </h3>
           <a
             href="#"
@@ -260,9 +260,9 @@
       </section>
 
       <!-- How Its Work Section -->
-      <section class="max-w-5xl mx-auto py-10">
-        <h1 class="text-center text-5xl text-primaryTextColor">How it works</h1>
-        <div class="flex flex-wrap justify-center gap-10 mt-20">
+      <section class="max-w-5xl mx-auto md:py-10">
+        <h1 class="text-center text-3xl md:text-5xl text-primaryTextColor">How it works</h1>
+        <div class="flex flex-wrap justify-center gap-10 mt-10 md:mt-20">
           <!-- Order via App -->
           <div
             class="max-w-72 flex flex-col justify-center items-center px-5 py-10 rounded-2xl shadow-2xl"
@@ -366,6 +366,22 @@
 
       <!-- Testimonial -->
       <section class="max-w-6xl mx-auto px-5 py-20">
+        <div class="max-w-3xl mx-auto mb-16">
+          <h1
+            class="text-center text-3xl md:text-5xl tracking-wide text-primaryTextColor leading-none"
+          >
+            What our food lovers said
+          </h1>
+          <p
+            class="tracking-wide text-primaryTextColor leading-7 text-base my-5 md:my-8 font-normal text-center"
+          >
+            In the artist's own experience, of course, art is fundamentally
+            indefinable, unsayable; there is something sacred about its demands
+            upon the soul, something inherently mysterious in the forms it takes
+          </p>
+        </div>
+
+        <!-- Slider -->
         <div class="relative max-w-3xl mx-auto">
           <div
             class="slider-container max-w-2xl mx-auto relative min-h-[278px] md:min-h-[380px] lg:min-h-[340px] overflow-hidden"
@@ -463,20 +479,29 @@
             <img src="images/tesimonial/ChevronRight.png" alt="" />
           </button>
         </div>
+
+        <!-- Client Logo -->
+        <img
+          src="./images/tesimonial/LogoClients.png"
+          class="mx-auto mt-5 lg:mt-16"
+          alt="LogoClients"
+        />
       </section>
     </main>
 
     <footer
-      class="bg-[url('images/footer/Background.png')] bg-cover bg-bottom min-h-[350px] lg:h-[350px] px-5 md:px-10 lg:px-0"
+      class="bg-[url('images/footer/Background.png')] bg-cover bg-bottom min-h-[350px] lg:h-[350px] px-5 md:px-10 xl:px-0"
     >
       <div class="flex items-center h-full">
-        <div class="max-w-6xl w-full m-auto flex flex-wrap gap-16 align-middle">
+        <div
+          class="max-w-6xl w-full m-auto flex flex-wrap gap-10 md:gap-16 lg:gap-10 xl:gap-16 align-middle"
+        >
           <!-- First Column -->
           <div>
             <div>
               <img src="images/logo/Logo.png" alt="" />
             </div>
-            <div class="text-primaryTextColor mt-14">
+            <div class="text-primaryTextColor mt-5 md:mt-14">
               <p>123 Lorem Ipsum Street</p>
               <p>Tangerang, Banten</p>
               <p class="mt-5">+10 - 234 - 5678</p>
@@ -486,7 +511,7 @@
           <!-- second Column -->
           <div>
             <h3 class="text-lg font-semibold">Partners</h3>
-            <div class="text-primaryTextColor mt-14 space-y-2">
+            <div class="text-primaryTextColor mt-5 md:mt-14 space-y-2">
               <p>All Restaurant</p>
               <p>Best Sellers</p>
               <p>Top rated</p>
@@ -497,7 +522,7 @@
           <!-- Third Column -->
           <div>
             <h3 class="text-lg font-semibold">About Us</h3>
-            <div class="text-primaryTextColor mt-14 space-y-2">
+            <div class="text-primaryTextColor mt-5 md:mt-14 space-y-2">
               <p>All Restaurant</p>
               <p>Best Sellers</p>
               <p>Top rated</p>
@@ -508,7 +533,7 @@
           <!-- Third Row -->
           <div>
             <h3 class="text-lg font-semibold">Privacy Policy</h3>
-            <div class="text-primaryTextColor mt-14 space-y-2">
+            <div class="text-primaryTextColor mt-5 md:mt-14 space-y-2">
               <p>FAQ</p>
               <p>Join Our Program</p>
               <p>Be our Partner</p>
@@ -519,7 +544,7 @@
           <!-- Fourth Row -->
           <div>
             <h3 class="text-lg font-semibold">Contact Us</h3>
-            <div class="text-primaryTextColor mt-14 space-y-2">
+            <div class="text-primaryTextColor mt-5 md:mt-14 space-y-2">
               <p>Our Privacy Policy</p>
               <p>Make An Investment</p>
             </div>
